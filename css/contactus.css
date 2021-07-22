@@ -1,0 +1,26 @@
+.footer_button button{
+  margin-top: 10px;
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+}
+
+.footer_button button:hover{
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+}
+
+.place a{
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  font-weight: 400;
+}
+.socialmedia span{
+  margin-right: 10px;
+  font-size: 25px;
+  color:white;
+}

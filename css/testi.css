@@ -1,0 +1,161 @@
+.feedback {
+  background-color: rgba(227, 241, 253, 0.938);
+  margin-top: 4%;
+}
+
+.feed-heading {
+  text-align: center;
+  z-index: 1;
+  padding-top: 2%;
+  font-weight: 600;
+}
+.line {
+  width: 14%;
+  background-color: #07689f;
+  height: 5px;
+  margin-left: 45%;
+}
+
+.padding {
+  padding: 5rem;
+}
+
+.feed-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+  border: 1px solid #d2d2dc;
+  border-radius: 11px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
+  box-shadow: 0px 0px 5px 0px rgb(161, 163, 164);
+  height: 400px;
+}
+
+.feed-card .card-body {
+  padding: 1rem 1rem;
+}
+.cust-name {
+  margin-top: 100px;
+  margin-left: -60px;
+}
+.feed-card.card-body {
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.feed-card p {
+  font-size: 1.075rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.7rem;
+}
+
+.feed-card h4 {
+  line-height: 0.2 !important;
+}
+
+.profile-pic {
+  width: 58px;
+}
+
+.cust-name {
+  font-size: 18px;
+  color: #07689f;
+}
+
+.items {
+  height: 50%;
+  width: 90%;
+  margin: 0px auto;
+  margin-top: 50px;
+}
+
+.slick-slide {
+  margin: 10px;
+  margin-bottom: 20px;
+}
+@media (max-width: 1480px) {
+  .feed-card {
+    height: 100%;
+    width: 100%;
+  }
+  .line {
+    display: none;
+  }
+  .cust-name {
+    margin-top: 93px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 1024px) {
+  .line {
+    display: none;
+  }
+  .feed-card {
+    height: 70%;
+    width: 100%;
+  }
+  .profile-pic {
+    margin-top: 5%;
+  }
+  .cust-name {
+    margin-top: 93px;
+  }
+}
+
+@media (max-width: 765.98px) {
+  .line {
+    display: none;
+  }
+  .feed-card {
+    height: 100%;
+  }
+}
+@media (max-width: 691.98px) {
+  .line {
+    display: none;
+  }
+
+  .items {
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 100px;
+  }
+
+  .feed-card p {
+    font-size: 13px;
+  }
+
+  .cust-name {
+    font-size: 11px;
+    margin-left: -5%;
+    margin-top: 5%;
+  }
+
+  .profile-pic {
+    margin-top: 0%;
+    margin-left: -5%;
+    width: 58px;
+  }
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.column {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
