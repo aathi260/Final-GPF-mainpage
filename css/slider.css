@@ -5,11 +5,12 @@
 }
 
 .carousel-item {
-  filter: brightness(90%);
   height: 100vh;
   min-height: 300px;
 }
-
+.carousel-item img{
+  filter: brightness(50%);
+}
 .carousel-caption {
   bottom: 220px;
 }
