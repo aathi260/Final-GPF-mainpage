@@ -1,18 +1,37 @@
-.navbar-brand img{
+.navbar{
+  height: 65px;
+}
+.navbar-brand img {
   width: 50px;
   height: 50px;
 }
 .nav-item{
-  margin-left: 35px;
   text-align: center;
 }
 .navbar-link {
   text-align: center;
   color: white;
   text-decoration: none;
+  font-size: 15px !important;
+  font-weight: 600 !important;
 }
-
+.navbar-nav a{
+  padding: 30px;
+}
+.navbar-nav a:hover{
+  background: white;
+  color: #0A1931;
+}
 .navbar-link:hover{
-  color: white;
   text-decoration: none;
+}
+@media (max-width: 1090px) {
+  .navbar-nav a{
+    padding: 13px;
+  }
+
+  .navbar-link{
+    font-size: 13px !important;
+    font-weight: 400 !important;
+  }
 }

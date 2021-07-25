@@ -106,7 +106,7 @@ body {
   justify-content: center;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1082px) {
   .root {
     flex-direction: column;
   }

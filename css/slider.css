@@ -8,14 +8,14 @@ body{
   font-family: "Poppins", sans-serif;
 }
 .carousel-item {
-	height: 90vh;
+	height: 91vh;
 	min-height: 300px;
 }
 .carousel-caption {
 	bottom: 250px;
 }
 .carousel-item img{
-  filter: brightness(60%);
+  filter: brightness(65%);
 }
 .carousel-caption h5 {
 	font-size: 45px;
